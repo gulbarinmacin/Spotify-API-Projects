@@ -4,9 +4,9 @@ from flask import Flask, request, redirect
 app = Flask(__name__)
 
 # Spotify API credentials - Replace with your actual credentials
-client_id = '6f874a900546415eac4d8610c53a52b9'  # Add your Client ID here
-client_secret = 'd32519313bb34fd1859a32c2c355f8da'  # Add your Client Secret here
-redirect_uri = 'http://localhost:8000/callback'  # Replace with your redirect URI
+client_id = 'add'  # Add your Client ID here
+client_secret = 'add'  # Add your Client Secret here
+redirect_uri = 'add'  # Replace with your redirect URI
 
 # Route to redirect user to Spotify for authorization
 @app.route('/')
@@ -161,4 +161,4 @@ def create_playlist(token, tracks_uris):
 
 # Run the Flask app
 if __name__ == '__main__':
-    app.run(port=8000)
+    app.run(port=add)
